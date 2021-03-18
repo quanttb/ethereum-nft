@@ -8,14 +8,44 @@
 
 The following prerequisites are required to be installed on your system:
 
-- N/A
+- NodeJS 12
+- Yarn (optional)
+- [Alchemy](https://www.alchemyapi.io/)
+- [Pinata](https://pinata.cloud/)
+- Metamask
+
+Then run:
+
+```sh
+yarn install
+```
+
+Get more ETH for testing: [link](http://rinkeby-faucet.com/)
+
+Rinkeby Testnet Explorer: [link](https://rinkeby.etherscan.io/)
 
 ## Execution
 
-### Deploy
+### Compile smart contract
 
 ```sh
-N/A
+yarn run compile
+```
+
+### Deploy to rinkeby testnet network
+
+```sh
+yarn run deploy
+```
+
+### Mint an NFT
+
+Firstly, update files: nft-metadata.json and src/mint-nft.js.
+
+Then run:
+
+```sh
+yarn run mint
 ```
 
 ## Contribution
