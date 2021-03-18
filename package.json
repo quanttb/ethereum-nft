@@ -6,9 +6,17 @@
   "author": "Quan Thien Bao Tran <tranthienbaoquan@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network rinkeby"
   },
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.0.0",
     "hardhat": "^2.1.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.1",
+    "dotenv": "^8.2.0"
   }
 }
