@@ -1,0 +1,14 @@
+{
+  "name": "ethereum-nft",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/quanttb/ethereum-nft.git",
+  "author": "Quan Thien Bao Tran <tranthienbaoquan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.1.1"
+  }
+}
